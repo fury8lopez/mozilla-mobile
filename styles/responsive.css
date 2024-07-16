@@ -1,0 +1,197 @@
+
+@media only screen and (min-width: 360px) and (max-width: 720px) {
+
+	h1,
+	h6 {
+		font-size: 20px;
+	}
+	
+	h2 {
+		font-size: 20px;
+	}
+	
+	p {
+		font-size: 12px;
+	}
+	
+	h5,
+	button {
+		font-size: 16px;
+	}
+	
+	
+	
+	li {
+		font-size: 12px;
+	}
+
+	.deskopt-view {
+		display: none;
+	}
+	
+	.mobile-view {
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+	}
+
+	.tittle {
+	text-align: center;
+	padding-left: 40px;
+	padding-right: 40px;
+	}
+
+	.subtittle {
+	padding-left: 40px;
+	padding-right: 40px;
+	}
+
+
+	.box-apps {
+		flex-direction: column;
+	}
+
+	.friendly-apps {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+	.app {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 200px;
+		gap: 12px;
+	}
+
+
+	.speaker-section {
+		flex-direction: column;
+		justify-content: center;
+		display: flex;
+		text-align: center;
+	}
+
+	.image-section {
+		width: 300px;
+	}
+
+	.speaker-text {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.heart {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.suscription-section {
+		flex-direction: column;
+		text-align: center;
+		padding-left: 0px;
+		padding-right: 0px;
+		gap: 0px;
+	}
+
+	.suscription-text {
+		text-align: center;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+	.foot-container {
+		flex-direction: column;
+		gap: 25px;
+	}
+
+	.icon-button {
+		height: 25px;
+		padding-left: 20px;
+		padding-right: 20px;
+		font-size: 16px;
+		background-color: white;
+		color: black;
+		border-radius: 7px;
+	
+	}
+	
+	.icon-button:hover {
+		border-radius: 8px;
+		font-size: 16px;
+	}
+	
+	.boton-link {
+		height: 40px;
+		padding-left: 20px;
+		padding-right: 20px;
+		background-color: white;
+		border-color: black;
+		color: black;
+		border-radius: 5px;
+	}
+	
+	.boton-link:hover {
+		cursor: pointer;
+		background-color: #ededf0;
+		border-color: black;
+		color: black;
+		border-radius: 5px;
+	}
+	
+	.boton-menu {
+		font-size: 16px;
+	}
+	
+	.logo-image {
+		width: 90px;
+	}
+	
+	.input-suscription {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.input-correo {
+		height: 36px;
+		width: 80%;
+		font-size: 14px;
+		border-radius: 5px;
+		border-color: #f0f0f4;
+		text-align: center;
+	}
+	
+	.input-correo:hover {
+		font-size: 15px;
+		border-radius: 5px;
+		border-color: #0250bb;
+	}
+	
+	.button-suscription {
+		font-size: 15px;
+	}
+	
+	.boton-suscription:hover {
+		cursor: pointer;
+		border-radius: 5px;
+		border-color: #0250bb;
+	}
+	
+	
+
+	}
+
+
+
+@media only screen and (min-width: 720px) and (max-width: 1024px){
+		
+    .speaker-section {
+		flex-direction: column;
+        text-align: center;
+	}
+
+	}
+

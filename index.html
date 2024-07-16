@@ -1,204 +1,421 @@
 <!DOCTYPE html>
 <html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Internet para la gente, no para el lucro</title>
+		<link
+			rel="shortcut icon"
+			href="./images/favicon.jpeg"
+			type="image/x-icon"
+		/>
+		<link rel="stylesheet" href="/styles/index.css" />
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Internet para la gente, no para el lucro</title>
-    <link rel="shortcut icon" href="./images/favicon.jpeg" type="image/x-icon">
-    <link rel="stylesheet" href="/style.css">
-</head>
+	<body>
+		<nav>
+			<div class="deskopt-view">
+				<div>
+					<a href="https://mozilla.org">
+						<img
+							class="mozilla-logo"
+							src="./images/Mozilla_logo.png"
+							alt="logo mozilla"
+						/>
+					</a>
+				</div>
+				<div class="list">
+					<ul class="nav-list">
+						<li ><a href="#" class="lista"><strong>Navegador firefox</strong></a></li>
+						<li ><a href="#" class="lista"><strong>Productos</strong></a></li>
+						<li ><a href="#" class="lista"><strong>Quienes somos</strong></a></li>
+						<li ><a href="#" class="lista"><strong>Innovacion</strong></a></li>
+					</ul>
+				</div>
+				<div>
+					<a href="#">
+						<button class="boton-descarga">Descargar firefox</button>
+					</a>
+				</div>
+			</div>
 
-<body>
-    <header>
-        <nav>
-            <a href="https://mozilla.org"><img src="./images/Mozilla_logo.png" alt="logo mozilla"></a>
+			<div class="mobile-view">
+				<div>
+					<a href="https://mozilla.org">
+						<img
+							class="mozilla-logo"
+							src="./images/Mozilla_logo.png"
+							alt="logo mozilla"
+						/>
+					</a>
+				</div>
+				<div>
+					<img src="/images/burger-button.svg" alt="boton-hamburguesa" class="burguer-button" />
+				</div>
+			</div>
+		</nav>
 
-            <div class="list">
-                <ul class="nav-list">
-                    <li><a href="#">Navegador firefox</a></li>
-                    <li><a href="#">Productos</a></li>
-                    <li><a href="#">Quienes somos</a></li>
-                    <li><a href="#">innovacion</a></li>
-                </ul>
-            </div>
-            <div>
-                <a href="http://descarga.com">
-                    <button class="boton-descarga">Descargar firefox</button></a>
-            </div>
-        </nav>
-        <div class="divisor"></div>
-        <div class="header-text">
-            <h1>Impulsado por una misión. Impulsado por la gente.</h1>
-            <p class="parrafo-uno">No somos una empresa de tecnología normal. Las cosas que creamos priorizan a las personas
-            y su privacidad por encima de las ganancias. Existimos para hacer de Internet un lugar más
-            saludable y feliz para todos.</p>
-        <br />
-        <br />
-        <p class="parrafo-dos">“La salud de Internet y la vida en línea es nuestra razón de ser.”
-            <br />
-            <strong>Mitchell Baker, presidenta ejecutiva de la junta directiva, Mozilla Foundation</strong>
-        </p>
-        </div>
-    </header>
-    <main>
-            <h1>Mozilla desarrolla productos que respetan la privacidad</h1>
-            <section class="logos_app">
-                <div class="org">
-                    <img src="./images/logofirefox.svg" alt="logo mozila">
-                    <h5>Navegación privada y segura</h5>
-                    <a href="#">
-                        <button class="boton-link">Obten firefox</button></a>
-                    <br />
-                </div>
-                <div class="org">
-                    <img src="./images/logocheck.svg" alt="logo ok">
-                    <h5>Los artículos más intrigantes de la web.</h5>
-                    <a href="#">
-                        <button class="boton-link">Obten Pocket</button></a>
-                    <br />
-                </div>
-                <div class="org">
-                    <img src="./images/logorelay.svg" alt="logo relay">
-                    <h5>Máscaras de correo electrónico y de teléfono fáciles de usar</h5>
-                    <a href="#">
-                        <button class="boton-link">Obten Relay</button></a>
-                    <br />
-                </div>
-                <div class="org">
-                    <img src="./images/logomozillavpn.svg" alt="logo mozila VPN">
-                    <h5>Una VPN en la que puedes confiar</h5>
-                    <a href="#">
-                        <button class="boton-link">Consigue MozillaVPN</button></a>
-                    <br />
-                </div>
-                <div class="org">
-                    <img src="./images/logomonitor.svg" alt="logo monitor">
-                    <h5>Alertas sobre filtraciones de datos</h5>
-                    <a href="#">
-                        <button class="boton-link">Obten Monitor</button></a>
-                </div>
-            </section>
-            <br />
-            <br />
-            <br />
-            <p class="parrafo-dos">“Mozilla está apostando por mostrarle al mundo que se puede hacer negocio con una IA
-                fiable.
-                Eso incluye poner aspectos como los derechos humanos, la protección de datos y la transparencia
-                en el centro del funcionamiento de estos sistemas complejos.”
-                <br />
-                <br />
-                <strong>Politico</strong>
-            </p>
+		<main>
+			<div class="divisor"></div>
 
-        
-        <section  class="speaker">
-            <div>
-                <img src="./images/Speaker.png" alt="speaker dando un discurso frente a gente atenta"
-                    class="imagenes-menu">
-            </div>
+			<section>
+				<div class="heading">
+					<div class="tittle">
+						<h1>Impulsado por una misión. Impulsado por la gente.</h1>
+						<p>
+							No somos una empresa de tecnología normal. Las cosas que creamos
+							priorizan a las personas y su privacidad por encima de las
+							ganancias. Existimos para hacer de Internet un lugar más saludable
+							y feliz para todos.
+						</p>
+					</div>
+					<div class="subtittle">
+						<div>
+							<p>
+								“La salud de Internet y la vida en línea es nuestra razón de ser.”
+							</p>
+						</div>
+						<div>
+							<p>
+								<strong>
+									Mitchell Baker, presidenta ejecutiva de la junta directiva,
+									Mozilla Foundation
+								</strong>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
 
-            <div>
-                <h1>¿Es Mozilla una corporación o una organización sin ánimo de lucro? En realidad, ambas.</h1>
-                <p>Mozilla consta de dos organizaciones. Mozilla Corporation es propiedad exclusiva de la
-                    organización sin ánimo de lucro 501(c) Mozilla Foundation. Lo que significa que no
-                    estamos en deuda con ningún accionista, solo con nuestra misión.</p>
-                <a href="#"><button class="boton-menu"><strong>Saber mas sobre Mozilla
-                            Foundation</strong></button></a>
-            </div>
-        </section>
+			<section class="friendly-apps">
+				<div>
+					<h1>Mozilla desarrolla productos que respetan la privacidad</h1>
+				</div>
+				<div class="column-apps">
+					<div class="box-apps">
+						<div class="app">
+							<img src="./images/logo-firefox.svg" alt="logo mozila"  class="logo-app" />
+							<h5>Navegación privada y segura</h5>
+							<a href="#">
+								<button class="icon-button">Obten firefox</button>
+							</a>
+							<br />
+						</div>
+						<div class="app">
+							<img src="./images/logo-check.svg" alt="logo ok"  class="logo-app" />
+							<h5>Los artículos más intrigantes de la web.</h5>
+							<a href="#">
+								<button class="icon-button">Obten Pocket</button>
+							</a>
+							<br />
+						</div>
+						<div class="app">
+							<img src="./images/logo-relay.svg" alt="logo relay"  class="logo-app"/>
+							<h5>
+								Máscaras de correo electrónico y de teléfono fáciles de usar
+							</h5>
+							<a href="#">
+								<button class="icon-button">Obten Relay</button>
+							</a>
+							<br />
+						</div>
+					</div>
+					<div class="box-apps">
+						<div class="app">
+							<img src="./images/logo-mozillavpn.svg" alt="logo mozila VPN" class="logo-app" />
+							<h5>Una VPN en la que puedes confiar</h5>
+							<a href="#">
+								<button class="icon-button">Consigue MozillaVPN</button>
+							</a>
+							<br />
+						</div>
+						<div class="app">
+							<img src="./images/logo-monitor.svg" alt="logo monitor" class="logo-app" />
+							<h5>Alertas sobre filtraciones de datos</h5>
+							<a href="#">
+								<button class="icon-button">Obten Monitor</button>
+							</a>
+						</div>
+						<div class="app">
+							<img src="./images/logo-blue.svg" alt="logo blue" class="logo-app" />
+							<h5>Detecta reseñas falsas sobre compras</h5>
+							<a href="#">
+								<button class="icon-button">Obten Monitor</button>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
 
-        <div class="divisor"></div>
+			<section>
+				<div class="subtittle">
+					<div>
+						<p>
+							“Mozilla está apostando por mostrarle al mundo que se puede hacer
+							negocio con una IA fiable. Eso incluye poner aspectos como los
+							derechos humanos, la protección de datos y la transparencia en el
+							centro del funcionamiento de estos sistemas complejos.”
+						</p>
+					</div>
+					<div>
+						<p>
+							<strong>Politico</strong>
+						</p>
+					</div>
+				</div>
+			</section>
 
-        <section class="speaker">
-            <div>
-                <h1>Únete a la lucha por un internet saludable</h1>
-                <p>Tu voz. Tu código. Tus ideas. Hay literalmente miles de formas en las que puedes
-                    contribuir a Mozilla.</p>
-                <a href="#"><button class="boton-menu">Colabora con mozilla</button></a>
-            </div>
+			<section class="speaker-section">
+				<div>
+					<img
+						src="./images/Speaker.png"
+						alt="speaker dando un discurso frente a gente atenta"
+						class="image-section"
+					/>
+				</div>
 
-            <div>
-                <img src="./images/pleople.png" alt="dos personas comentando distendidamente" class="imagenes-menu">
-            </div>
-        </section>
+				<div class="speaker-text">
+					<div>
+						<h2>
+							¿Es Mozilla una corporación o una organización sin ánimo de lucro?
+							En realidad, ambas.
+						</h2>
+						<p>
+							Mozilla consta de dos organizaciones. Mozilla Corporation es
+							propiedad exclusiva de la organización sin ánimo de lucro 501(c)
+							Mozilla Foundation. Lo que significa que no estamos en deuda con
+							ningún accionista, solo con nuestra misión.
+						</p>
+					</div>
+					<div>
+						<a href="#">
+							<button class="boton-menu">
+								<strong>Saber mas sobre Mozilla Foundation</strong>
+							</button>
+						</a>
+					</div>
+				</div>
+			</section>
 
-        <section>
-            <section>
-                <div class="logos-app">
-                    <img src="./images/logodispositivos.svg" alt="logo dibuji reprensentando dispositivos">
-                    <h6>PRODUCTO DESTACADO</h6>
-                    <br />
-                    <h6>Difumina tu ubicación y actividad usando Mozilla VPN</h6>
-                    <a href="#"><button class="boton-menu">Consigue Mozilla VPN</button></a>
-                </div>
-                <br />
-                <div class="regalo">
-                    <h1>Esa vez que regalamos nuestro código fuente…</h1>
-                    <p>El proyecto Mozilla se fundó en San Francisco en 1998, cuando el navegador
-                        Netscape tomó la decisión radical de entregar el código de su programa al
-                        público para que lo desarrollara y lo mejorara. En ese momento, una empresa
-                        tenía prácticamente el monopolio de la experiencia en Internet.
-                        Con el tiempo, el proyecto de código abierto Mozilla se transformó en la
-                        muy popular primera versión de Firefox.
+			<section class="heart">
+				<div>
+					<img
+						src="./images/logo-heart.svg"
+						alt="logo mozilla dentro de un corazon pixelado"
+						class=""
+					/>
+				</div>
+				<div>
+					<h3>AYUDA A NUESTRO MOVIMIENTO</h3>
+					<p>
+						Haz una donación a Mozilla Foundation hoy para garantizar que
+						Internet permanezca abierto y accesible para todos.
+					</p>
+				</div>
+				<div>
+					<a href="#">
+						<button class="boton-menu">Donar</button>
+					</a>
+				</div>
+			</section>
 
-                        Hoy, Mozilla continúa su movimiento hacia un mejor Internet con millones de
-                        miembros activos de la comunidad en todo el mundo, que abogan por tecnología ética,
-                        inteligencia artificial fiable y creando productos que priorizan la privacidad y
-                        brindan más poder a las personas.</p>
-                    <a href="#"><button class="boton-menu">Saber mas sobre mozilla</button></a>
-                    <img src="./images/logodino.svg" alt="logo dibujo comic de la cabeza de un dinosaurio">
-                </div>
-            </section>
-        </section>
+			<section class="speaker-section">
+				<div>
+					<div>
+						<h2>Únete a la lucha por un internet saludable</h2>
+						<p>
+							Tu voz. Tu código. Tus ideas. Hay literalmente miles de formas en
+							las que puedes contribuir a Mozilla.
+						</p>
+					</div>
+					<div class="colaborate-button">
+						<a href="#">
+							<button class="boton-menu">Colabora con mozilla</button>
+						</a>
+					</div>
+				</div>
 
-        <section class="suscription">
-            <div class="suscription-text">
-                <h1>Recibe (buenas) noticias de Mozilla</h1>
-                <p id="suscription">Recibe noticias y consejos de Mozilla para mantenerte seguro e informado sobre todo lo que
-                hace que la web sea un lugar más saludable.</p>
-            </div>
-            <div class="correo">
-                <h5><Strong>Tu direccion de correo electronico:</Strong></h5>
-                <input type="text" placeholder="tunombre@example.com" class="input-correo">
-                <br>
-                <button class="boton-suscription" style="margin-top:25px;">Suscribete Ya</button>
-                <p>Solo te enviaremos información relacionada con Mozilla.</p>
-            </div>
-        </section>
-    </main>
+				<div>
+					<img
+						src="./images/pleople.png"
+						alt="dos personas comentando distendidamente"
+						class="image-section"
+					/>
+				</div>
+			</section>
 
-    <footer>
-        <img src="./images/Mozilla_logo.png" alt="logo mozilla" class="logo-mozilla">
-        <br/>
-        <div class="nav-list">
-            <div>
-                <div><a href="#">preguntas frecuentes</a></div>
-                <div><a href="#">cuentas</a></div>
-                <div><a href="#">inversores</a></div>
-                <div><a href="#">formas de ver</a></div>
-                <div><a href="#">informacion</a></div>
-                <div><a href="#">garantia legal</a></div>
-                <div><a href="#">comprar tarjeta regalo</a></div>
-            </div>
-            <div>
-                <div><a href="#">centro de ayuda</a></div>
-                <div><a href="#">empleo</a></div>
-                <div><a href="#">terminos de uso</a></div>
-                <div><a href="#">formas de ver</a></div>
-                <div><a href="#">contactanos</a></div>
-                <div><a href="#">avisos legales</a></div>
-                <div><a href="#">opcion de anuncios</a></div>
-            </div>
-            <div>
-                <div><a href="#">cuentas</a></div>
-                <div><a href="#">canjear tarjetas regalo</a></div>
-                <div><a href="#">privacidad</a></div>
-                <div><a href="#">prueba de velocidad</a></div>
-                <div><a href="#">preferencias de cookies</a></div>                
-                <div><a href="#">zona de prensa</a></div>
-            </div>
-        </div>
-    </footer>
-</body>
+			<section>
+				<div class="dispositives">
+					<div>
+						<img
+							src="./images/logo-dispositivos.svg"
+							alt="logo dibuji reprensentando dispositivos"
+						/>
+					</div>
+					<div>
+						<h5>PRODUCTO DESTACADO</h5>
+					</div>
+					<div>
+						<p>Difumina tu ubicación y actividad usando Mozilla VPN</p>
+					</div>
+					<div>
+						<a href="#">
+							<button class="boton-menu">Consigue Mozilla VPN</button>
+						</a>
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<div class="gift">
+					<div>
+						<h1>Esa vez que regalamos nuestro código fuente…</h1>
+						<p>
+							El proyecto Mozilla se fundó en San Francisco en 1998, cuando el
+							navegador Netscape tomó la decisión radical de entregar el código
+							de su programa al público para que lo desarrollara y lo mejorara.
+							En ese momento, una empresa tenía prácticamente el monopolio de la
+							experiencia en Internet. Con el tiempo, el proyecto de código
+							abierto Mozilla se transformó en la muy popular primera versión de
+							Firefox. Hoy, Mozilla continúa su movimiento hacia un mejor
+							Internet con millones de miembros activos de la comunidad en todo
+							el mundo, que abogan por tecnología ética, inteligencia artificial
+							fiable y creando productos que priorizan la privacidad y brindan
+							más poder a las personas.
+						</p>
+					</div>
+					<div>
+						<a href="#">
+							<button class="boton-menu">Saber mas sobre mozilla</button>
+						</a>
+					</div>
+					<div>
+						<img
+							src="./images/logo-dino.svg"
+							alt="logo dibujo comic de la cabeza de un dinosaurio"
+							class="dino-image"
+						/>
+					</div>
+				</div>
+			</section>
+
+			<section class="suscription-section">
+				<div class="suscription-text">
+					<h1>Recibe (buenas) noticias de Mozilla</h1>
+					<p id="suscription">
+						Recibe noticias y consejos de Mozilla para mantenerte seguro e
+						informado sobre todo lo que hace que la web sea un lugar más
+						saludable.
+					</p>
+				</div>
+				<div class="correo">
+					<div>
+						<h5><strong>Tu direccion de correo electronico:</strong></h5>
+					</div>
+					<div class="input-suscription">
+						<div>
+							<input
+								type="text"
+								placeholder="tunombre@example.com"
+								class="input-correo"
+							/>
+						</div>
+	
+						<div>
+							<button class="button-suscription" style="margin-top: 25px">
+								Suscribete Ya
+							</button>
+						</div>
+					</div>
+					<div>
+						<p>Solo te enviaremos información relacionada con Mozilla.</p>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<div>
+				<a href="#">
+					<img
+					src="./images/Mozilla_logo.png"
+					alt="logo mozilla"
+					class="mozilla-logo"
+				/></a>
+			</div>
+
+			<div class="foot-container">
+				<div>
+					<div><a href="#" class="footer-list">cuentas</a></div>
+					<div><a href="#" class="footer-list">preguntas frecuentes</a></div>
+					<div><a href="#" class="footer-list">inversores</a></div>
+					<div><a href="#" class="footer-list">formas de ver</a></div>
+					<div><a href="#" class="footer-list">informacion</a></div>
+					<div><a href="#" class="footer-list">garantia legal</a></div>
+					<div><a href="#" class="footer-list">comprar tarjeta regalo</a></div>
+				</div>
+
+				<div>
+					<div><a href="#" class="footer-list">centro de ayuda</a></div>
+					<div><a href="#" class="footer-list">empleo</a></div>
+					<div><a href="#" class="footer-list">terminos de uso</a></div>
+					<div><a href="#" class="footer-list">formas de ver</a></div>
+					<div><a href="#" class="footer-list">contactanos</a></div>
+					<div><a href="#" class="footer-list">avisos legales</a></div>
+					<div><a href="#" class="footer-list">opcion de anuncios</a></div>
+				</div>
+
+				<div>
+					<div><a href="#" class="footer-list">cuentas</a></div>
+					<div><a href="#" class="footer-list">canjear tarjetas regalo</a></div>
+					<div><a href="#" class="footer-list">privacidad</a></div>
+					<div><a href="#" class="footer-list">prueba de velocidad</a></div>
+					<div><a href="#" class="footer-list">preferencias de cookies</a></div>
+					<div><a href="#" class="footer-list">zona de prensa</a></div>
+				</div>
+
+				<div class="RRSS">
+					<div>
+						<p class="footer-list">Seguir a @mozilla en</p>
+					</div>
+					<div class="box-logos">
+						<div class="logos-footer">
+							<a href="#">
+								<img src="/images/logo-fb.svg" alt="logo facebook" />
+							</a>
+						</div>
+						<div class="logos-footer">
+							<a href="#">
+								<img src="/images/logo-insta.svg" alt="logo instagram" />
+							</a>
+						</div>
+						<div class="logos-footer">
+							<a href="#">
+								<img src="/images/logo-tktk.svg" alt="logo tiktok" />
+							</a>
+						</div>
+						<div class="logos-footer">
+							<a href="#">
+								<img src="/images/logo-x.svg" alt="logo X" />
+							</a>
+						</div>
+						<div class="logos-footer">
+							<a href="#">
+								<img src="/images/logo-ytb.svg" alt="logo youtube" />
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div >
+				<a href="#">
+					<button class="donate-button">
+						<img src="/images/heart.png" class="heart-icon" alt="corazon pixelado">Donar</button>
+				</a>
+			</div>
+
+			
+		</footer>
+	</body>
 </html>
