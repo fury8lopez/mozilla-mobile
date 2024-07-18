@@ -63,11 +63,11 @@ nav {
 	width: 100%;
 }
 
-.lista {
+.element-list {
 	color: black;
 }
 
-.lista:hover {
+.element-list:hover {
 	text-decoration: underline;
 	font-size: 18px;
 }
