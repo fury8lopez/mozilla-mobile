@@ -115,7 +115,9 @@ nav {
 	color: white;
 	border-radius: 5px;
 	cursor: pointer;
-	animation: bounce 1s;
+	animation-delay: 1s;
+	animation-name: bounce;
+	animation-duration: 1.5s;
 }
 
 .heading {
@@ -402,3 +404,4 @@ footer {
 	border-radius: 5px;
 	border-color: #0250bb;
 }
+
